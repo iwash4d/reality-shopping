@@ -1,0 +1,49 @@
+<ZAS>
+	<SETUP 
+		PANELPOSITION="2"
+		INITIALVISIBILITY="1" 
+		MINSCALE="0.20" 
+		MAXSCALE="2" 
+		POIVISIBILITY="0" 
+		LABELVISIBILITY="1" 
+		NOTEVISIBILITY="0"
+		COMMENTVISIBILITY="1" >
+	</SETUP>
+	<POI 
+		ID="0" 
+		NAME="Whole Image" 
+		X="center" 
+		Y="center" 
+		ZOOM="-1" >
+		<LABELS>
+			<LABEL  	
+				NAME="Hotspot click calls function in page to create DIV in display" 
+				MEDIATYPE="polygon"
+				MEDIA="polygon" 
+				X="21952" 
+				Y="1444" 
+				ZOOM="100" 
+				XSCALE="100" 
+				YSCALE="100"
+				CLICKURL="function"
+				URLTARGET="displayPopup();"
+				ROLLOVER="0"
+				TOOLTIP="View Product Details"  
+				TEXTCOLOR="008000"
+				BACKCOLOR="ffffff"
+				LINECOLOR="ff0000" 
+				FILLCOLOR="ff0000"
+				TEXTVISIBLE="1" 
+				BACKVISIBLE="1"
+				LINEVISIBLE="1" 
+				FILLVISIBLE="1">
+					<POLYGON> 					
+						<POINT X="21952" Y="1754" ></POINT> 
+						<POINT X="21952" Y="1444" ></POINT> 
+						<POINT X="22674" Y="1444" ></POINT> 
+						<POINT X="22674" Y="1754" ></POINT> 
+					</POLYGON>
+			</LABEL>
+		</LABELS>
+	</POI>
+</ZAS>
